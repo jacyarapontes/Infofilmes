@@ -23,7 +23,7 @@ async function core(){
      validaDados(filme);
      defineValores(filme);
      }catch(erro){
-          console.log(erro);
+          
           mensagemErro.textContent = `${erro}`;
      }
 
